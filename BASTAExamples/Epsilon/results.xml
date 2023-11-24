@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<stars>
+	<star starid="16CygA">
+		<Teff value="5795.992582" error_plus="6.543087000000014" error_minus="27.544478094650003" unit="K">
+			<remarks>Effective temperature</remarks>
+		</Teff>
+		<FeH value="0.09684488134499789" error_plus="0.029023513264978873" error_minus="0.029192902231741466" unit="dex">
+			<remarks>Iron abundance</remarks>
+		</FeH>
+		<dnufit value="104.05071681629703" error_plus="0.4571945367607526" error_minus="0.4117350761214311" unit="microHz">
+			<remarks>Large frequency separation from linear fit to individual $\ell=0$ modes</remarks>
+		</dnufit>
+		<numax value="2202.066707136213" error_plus="12.997418575757365" error_minus="11.479072029977488" unit="solar">
+			<remarks>Frequency of maximum oscillation power</remarks>
+		</numax>
+		<radPhot value="1.2131398198151566" error_plus="0.004733478945784908" error_minus="0.005775740609741398" unit="solar">
+			<remarks>Photospheric radius</remarks>
+		</radPhot>
+		<massfin value="1.048471164848424" error_plus="0.013008462621285855" error_minus="0.01300704740837566" unit="solar">
+			<remarks>Current mass</remarks>
+		</massfin>
+		<age value="7178.860182" error_plus="343.62695899999926" error_minus="257.4287640000002" unit="Myr">
+			<remarks>Current age in Myr</remarks>
+		</age>
+	</star>
+</stars>
+
