@@ -1,0 +1,30 @@
+========================================================================================
+                                         BASTA                                         
+                             The BAyesian STellar Algorithm                             
+
+                                     Version 1.2.1                                     
+
+                                (c) 2022, The BASTA Team                                
+                           https://github.com/BASTAcode/BASTA                           
+========================================================================================
+
+Run started on 2023-12-11 12:03:18 . 
+
+Random numbers initialised with seed: 4060 .
+BASTA failed for star 11129442 with the error:
+Traceback (most recent call last):
+  File "/root/BASTA/basta/xml_run.py", line 821, in run_xml
+    BASTA(
+  File "/root/BASTA/basta/bastamain.py", line 112, in BASTA
+    Grid = h5py.File(gridfile, "r")
+  File "/mnt/c/Users/georg/Documents/Homework/University/Year 4/Project/BASTA/venv/lib/python3.10/site-packages/h5py/_hl/files.py", line 567, in __init__
+    fid = make_fid(name, mode, userblock_size, fapl, fcpl, swmr=swmr)
+  File "/mnt/c/Users/georg/Documents/Homework/University/Year 4/Project/BASTA/venv/lib/python3.10/site-packages/h5py/_hl/files.py", line 231, in make_fid
+    fid = h5f.open(name, flags, fapl=fapl)
+  File "h5py/_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py/_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "h5py/h5f.pyx", line 106, in h5py.h5f.open
+OSError: Unable to open file (truncated file: eof = 25634471936, sblock->base_addr = 0, stored_eof = 35904091696)
+
+Saved results to /mnt/c/Users/georg/Documents/GitHub/Iwan-and-George-Year-4-Project/BASTAExamples/Distance/results.ascii.
+Saved distance results for different filters to /mnt/c/Users/georg/Documents/GitHub/Iwan-and-George-Year-4-Project/BASTAExamples/Distance/results_distance.ascii.
