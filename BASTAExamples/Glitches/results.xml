@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<stars>
+	<star starid="16CygA">
+		<Teff value="nan" error_plus="nan" error_minus="nan" unit="K">
+			<remarks>Effective temperature</remarks>
+		</Teff>
+		<FeH value="nan" error_plus="nan" error_minus="nan" unit="dex">
+			<remarks>Iron abundance</remarks>
+		</FeH>
+		<dnufit value="nan" error_plus="nan" error_minus="nan" unit="microHz">
+			<remarks>Large frequency separation from linear fit to individual $\ell=0$ modes</remarks>
+		</dnufit>
+		<numax value="nan" error_plus="nan" error_minus="nan" unit="solar">
+			<remarks>Frequency of maximum oscillation power</remarks>
+		</numax>
+		<radPhot value="nan" error_plus="nan" error_minus="nan" unit="solar">
+			<remarks>Photospheric radius</remarks>
+		</radPhot>
+		<massfin value="nan" error_plus="nan" error_minus="nan" unit="solar">
+			<remarks>Current mass</remarks>
+		</massfin>
+		<age value="nan" error_plus="nan" error_minus="nan" unit="Myr">
+			<remarks>Current age in Myr</remarks>
+		</age>
+	</star>
+</stars>
+

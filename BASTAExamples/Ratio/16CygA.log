@@ -1,0 +1,150 @@
+========================================================================================
+                                         BASTA                                         
+                             The BAyesian STellar Algorithm                             
+
+                                     Version 1.2.1                                     
+
+                                (c) 2022, The BASTA Team                                
+                           https://github.com/BASTAcode/BASTA                           
+========================================================================================
+
+Run started on 2023-11-23 16:19:47 . 
+
+Random numbers initialised with seed: 4159 .
+
+Fitting star id: 16CygA .
+* Using the grid '/root/BASTA/grids/Garstec_16CygA.hdf5' of type 'sobol tracks'.
+  - Grid built with BASTA version 1.1.4, timestamp: 2022-02-28 at 11:29:45.
+
+Transforming solar-based asteroseismic quantities:
+* Converting to solar units if needed...
+* Scaling dnu to the solar model in the grid (path: solar_models/suncal_as09_opal) ...
+  - dnufit scaled by 1.0082 from 103.30 to 104.15 microHz (grid Sun: 136.21 microHz, real Sun: 135.10 microHz)
+    (Note: Will be scaled back before outputting results!)
+Done!
+
+Preparing asteroseismic input ...
+Done!
+
+Fitting information:
+* Fitting parameters with values and uncertainties:
+  - Teff: [5825.0, 50.0]
+  - FeH: [0.1, 0.026]
+* Fitting of frequency ratios r012 activated!
+  - Automatic prior on dnu: Yes
+  - Constraining lowest l = 0 (n = 12) with f = 1390.808 +/- 0.863 muHz to within 15.0 % of dnu (15.622 microHz)
+  - Correlations: Yes
+  - Frequency input data: /root/BASTA/examples/data/freqs/16CygA.xml
+  - Frequency input data (list of ignored modes): None
+  - Inclusion of dnu in ratios fit: No
+  - Interpolation in ratios: Yes
+  - Surface effect correction: BG14
+  - Use alternative ratios (3-point): No
+  - Value of dnu: 104.148 +/- 0.504 microHz
+  - Value of numax: 2188.500 microHz
+  - Weighting scheme: 1/N
+
+Additional input parameters and settings in alphabetical order:
+* asciiparams: ['Teff', 'FeH', 'dnufit', 'numax', 'radPhot', 'massfin', 'age']
+* centroid: median
+* cornerplots: ['Teff', 'FeH', 'dnufit', 'numax', 'radPhot', 'massfin', 'age']
+* dnu_scales: {'dnufit': 1.0082126221679892}
+* dnusun: 135.1
+* freqplots: ['ratios']
+* inputfile: input_ratios.xml
+* kielplots: [True]
+* numsun: 3090.0
+* output: /mnt/c/Users/georg/Documents/GitHub/Iwan-and-George-Year-4-Project/BASTAExamples/Ratio/
+* plotfmt: pdf
+* solarmodel: True
+* uncert: quantiles
+
+Weights and priors:
+* Bayesian weights:
+  - Along tracks: age
+  - Between tracks: volume
+* Flat, constrained priors and ranges:
+  - Teff: [5675.0, 5975.0]
+  - FeH: [-0.15, 0.35]
+  - dnufit: [88.5261092894603, 119.77061845044628]
+* Additional priors (IMF): salpeter1955
+
+
+Computing likelihood of models in the grid (255 tracks) ...
+Done! Computed the likelihood of 996 models, found 996 models with non-zero likelihood!
+
+
+*****************************************
+**                                     **
+**   Output and results from the fit   **
+**                                     **
+*****************************************
+
+
+Highest likelihood model:
+* Weighted, non-normalized log-probability: -4.356992223975989
+* Grid-index: grid/tracks/track084[202], with parameters:
+  - Name: track084-1768.fgong
+  - Teff      :  5795.242753 
+  - FeH       :     0.095765 
+  - dnufit    :   105.001692 (after rescaling:   104.146377)
+  - numax     :     0.713258 (after rescaling:  2203.968725)
+  - radPhot   :     1.211972 
+  - massfin   :     1.047473 
+  - age       :  7212.282057 
+
+Lowest chi2 model:
+* chi2: 2.4166114842272512
+* Grid-index: grid/tracks/track171[204], with parameters:
+  - Name: track171-1774.fgong
+  - Teff      :  5794.682088 
+  - FeH       :     0.098166 
+  - dnufit    :   104.897973 (after rescaling:   104.043503)
+  - numax     :     0.712561 (after rescaling:  2201.814067)
+  - radPhot   :     1.213173 
+  - massfin   :     1.048473 
+  - age       :  7200.266140 
+
+
+Computing posterior distributions for the requested output parameters!
+==> Summary statistics printed below ...
+
+-----------------------------------------------------
+median     Teff          :   5795.833481
+err_plus   Teff          :      6.332243
+err_minus  Teff          :     27.706461
+-----------------------------------------------------
+median     FeH           :      0.096996
+err_plus   FeH           :      0.029044
+err_minus  FeH           :      0.029344
+-----------------------------------------------------
+median     dnufit        :    104.102326
+err_plus   dnufit        :      0.405117
+err_minus  dnufit        :      0.458251
+-----------------------------------------------------
+median     numax         :   2202.896981
+err_plus   numax         :     12.469059
+err_minus  numax         :     12.309345
+-----------------------------------------------------
+median     radPhot       :      1.212734
+err_plus   radPhot       :      0.005138
+err_minus  radPhot       :      0.005370
+-----------------------------------------------------
+median     massfin       :      1.048470
+err_plus   massfin       :      0.013011
+err_minus  massfin       :      0.013006
+-----------------------------------------------------
+median     age           :   7178.860182
+err_plus   age           :    379.158209
+err_minus  age           :    272.874076
+-----------------------------------------------------
+
+Saved results to /mnt/c/Users/georg/Documents/GitHub/Iwan-and-George-Year-4-Project/BASTAExamples/Ratio/results.ascii.
+Saved corner plot to /mnt/c/Users/georg/Documents/GitHub/Iwan-and-George-Year-4-Project/BASTAExamples/Ratio/16CygA_corner.pdf.
+Saved Kiel diagram to /mnt/c/Users/georg/Documents/GitHub/Iwan-and-George-Year-4-Project/BASTAExamples/Ratio/16CygA_kiel.pdf.
+The surface correction coefficients are -9.422272771768714e-09 -7.319808560747425e-09
+Saved figure to /mnt/c/Users/georg/Documents/GitHub/Iwan-and-George-Year-4-Project/BASTAExamples/Ratio/16CygA_ratios_r012.pdf
+Saved figure to /mnt/c/Users/georg/Documents/GitHub/Iwan-and-George-Year-4-Project/BASTAExamples/Ratio/16CygA_ratios_r012_cormap.pdf
+
+Finished on 2023-11-23 16:22:42 (runtime 175.0 s).
+

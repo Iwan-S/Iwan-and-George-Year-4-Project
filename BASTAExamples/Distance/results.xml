@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<stars>
+	<star starid="11129442">
+		<distance value="nan" error_plus="nan" error_minus="nan" unit="pc">
+			<remarks>Stellar distance</remarks>
+		</distance>
+		<Teff value="nan" error_plus="nan" error_minus="nan" unit="K">
+			<remarks>Effective temperature</remarks>
+		</Teff>
+		<FeH value="nan" error_plus="nan" error_minus="nan" unit="dex">
+			<remarks>Iron abundance</remarks>
+		</FeH>
+		<dnuSer value="nan" error_plus="nan" error_minus="nan" unit="solar">
+			<remarks>Large frequency separation corrected following Serenelli+17</remarks>
+		</dnuSer>
+		<numax value="nan" error_plus="nan" error_minus="nan" unit="solar">
+			<remarks>Frequency of maximum oscillation power</remarks>
+		</numax>
+		<radPhot value="nan" error_plus="nan" error_minus="nan" unit="solar">
+			<remarks>Photospheric radius</remarks>
+		</radPhot>
+		<massfin value="nan" error_plus="nan" error_minus="nan" unit="solar">
+			<remarks>Current mass</remarks>
+		</massfin>
+		<age value="nan" error_plus="nan" error_minus="nan" unit="Myr">
+			<remarks>Current age in Myr</remarks>
+		</age>
+	</star>
+</stars>
+
