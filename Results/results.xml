@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<stars>
+	<star starid="Gaia-DR3-1044013542142711296">
+		<Teff value="nan" error_plus="nan" error_minus="nan" unit="K">
+			<remarks>Effective temperature</remarks>
+		</Teff>
+		<FeH value="nan" error_plus="nan" error_minus="nan" unit="dex">
+			<remarks>Iron abundance</remarks>
+		</FeH>
+		<radPhot value="nan" error_plus="nan" error_minus="nan" unit="solar">
+			<remarks>Photospheric radius</remarks>
+		</radPhot>
+		<massfin value="nan" error_plus="nan" error_minus="nan" unit="solar">
+			<remarks>Current mass</remarks>
+		</massfin>
+		<age value="nan" error_plus="nan" error_minus="nan" unit="Myr">
+			<remarks>Current age in Myr</remarks>
+		</age>
+	</star>
+</stars>
+
