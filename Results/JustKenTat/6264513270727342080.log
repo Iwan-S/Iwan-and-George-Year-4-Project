@@ -1,0 +1,120 @@
+========================================================================================
+                                         BASTA                                         
+                             The BAyesian STellar Algorithm                             
+
+                                     Version 1.2.1                                     
+
+                                (c) 2022, The BASTA Team                                
+                           https://github.com/BASTAcode/BASTA                           
+========================================================================================
+
+Run started on 2024-01-20 18:55:43 . 
+
+Random numbers initialised with seed: 3178 .
+
+Fitting star id: 6264513270727342080 .
+* Using the grid '/root/BASTA/grids/Garstec_AS09_barbieMS.hdf5' of type 'sobol tracks'.
+  - Grid built with BASTA version 1.3.1, timestamp: 2023-11-28 at 20:12:28.
+
+Transforming solar-based asteroseismic quantities:
+* Converting to solar units if needed...
+* Solar model scaling not activated!  -->  Dnu will not be scaled.
+Done!
+
+Fitting information:
+* Fitting parameters with values and uncertainties:
+  - Teff: [4204.36, 13.1605]
+  - FeH: [0.0137, 0.0393]
+
+Additional input parameters and settings in alphabetical order:
+* asciiparams: ['Teff', 'FeH', 'radPhot', 'massfin', 'age']
+* centroid: median
+* cornerplots: ['Teff', 'FeH', 'radPhot', 'massfin', 'age']
+* dnu_scales: {}
+* dnusun: 135.1
+* freqplots: []
+* inputfile: input_JustKen.xml
+* kielplots: [True]
+* numsun: 3090.0
+* output: mnt/c/Users/georg/Documents/GitHub/Iwan-and-George-Year-4-Project/Results/
+* plotfmt: png
+* solarmodel: False
+* uncert: quantiles
+
+Weights and priors:
+* Bayesian weights:
+  - Along tracks: age
+  - Between tracks: volume
+* Flat, constrained priors and ranges:
+  - Teff: [4164.8785, 4243.8414999999995]
+  - FeH: [-0.2363, 0.2637]
+* Additional priors (IMF): 
+
+
+Computing likelihood of models in the grid (5977 tracks) ...
+Done! Computed the likelihood of 260 models, found 260 models with non-zero likelihood!
+
+
+*****************************************
+**                                     **
+**   Output and results from the fit   **
+**                                     **
+*****************************************
+
+
+Highest likelihood model:
+* Weighted, non-normalized log-probability: -15.153931839538394
+* Grid-index: grid/tracks/track0767[15], with parameters:
+  - Name: track0767-563.fgong
+  - Teff      :  4230.281878 
+  - FeH       :     0.185131 
+  - radPhot   :     0.623477 
+  - massfin   :     0.702984 
+  - age       :  2152.473004 
+
+Lowest chi2 model:
+* chi2: 22.907558894000697
+* Grid-index: grid/tracks/track0767[15], with parameters:
+  - Name: track0767-563.fgong
+  - Teff      :  4230.281878 
+  - FeH       :     0.185131 
+  - radPhot   :     0.623477 
+  - massfin   :     0.702984 
+  - age       :  2152.473004 
+
+
+Computing posterior distributions for the requested output parameters!
+==> Summary statistics printed below ...
+
+-----------------------------------------------------
+median     Teff          :   4231.010692
+err_plus   Teff          :      5.699653
+err_minus  Teff          :      3.572126
+-----------------------------------------------------
+median     FeH           :      0.185131
+err_plus   FeH           :      0.022747
+err_minus  FeH           :      0.007518
+-----------------------------------------------------
+median     radPhot       :      0.626355
+err_plus   radPhot       :      0.013439
+err_minus  radPhot       :      0.006096
+-----------------------------------------------------
+median     massfin       :      0.702984
+err_plus   massfin       :      0.007954
+err_minus  massfin       :      0.000012
+-----------------------------------------------------
+median     age           :   2940.473004
+err_plus   age           :   2528.799815
+err_minus  age           :   1576.000000
+-----------------------------------------------------
+
+Saved results to mnt/c/Users/georg/Documents/GitHub/Iwan-and-George-Year-4-Project/Results/JustKenResults.ascii.
+Parameter $M$ (M$_\odot$) resulted in 3045 bins, raising MemoryError
+WARNING! Using 'auto' as bin-rule causes a memory crash!Switching to 'scott' for the parameter '$M$ (M$_\odot$)'!
+Saved corner plot to mnt/c/Users/georg/Documents/GitHub/Iwan-and-George-Year-4-Project/Results/6264513270727342080_corner.png.
+Saved Kiel diagram to mnt/c/Users/georg/Documents/GitHub/Iwan-and-George-Year-4-Project/Results/6264513270727342080_kiel.png.
+Did not get any frequency file input, skipping ratios and echelle plots.
+Saved dictionary to mnt/c/Users/georg/Documents/GitHub/Iwan-and-George-Year-4-Project/Results/6264513270727342080.json
+
+Finished on 2024-01-20 18:55:51 (runtime 8.0 s).
+
