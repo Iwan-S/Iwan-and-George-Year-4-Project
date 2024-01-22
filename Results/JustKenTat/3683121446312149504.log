@@ -1,0 +1,118 @@
+========================================================================================
+                                         BASTA                                         
+                             The BAyesian STellar Algorithm                             
+
+                                     Version 1.2.1                                     
+
+                                (c) 2022, The BASTA Team                                
+                           https://github.com/BASTAcode/BASTA                           
+========================================================================================
+
+Run started on 2024-01-20 17:46:22 . 
+
+Random numbers initialised with seed: 3178 .
+
+Fitting star id: 3683121446312149504 .
+* Using the grid '/root/BASTA/grids/Garstec_AS09_barbieMS.hdf5' of type 'sobol tracks'.
+  - Grid built with BASTA version 1.3.1, timestamp: 2023-11-28 at 20:12:28.
+
+Transforming solar-based asteroseismic quantities:
+* Converting to solar units if needed...
+* Solar model scaling not activated!  -->  Dnu will not be scaled.
+Done!
+
+Fitting information:
+* Fitting parameters with values and uncertainties:
+  - Teff: [4309.083, 1.4033]
+  - FeH: [0.7475, 0.0025]
+
+Additional input parameters and settings in alphabetical order:
+* asciiparams: ['Teff', 'FeH', 'radPhot', 'massfin', 'age']
+* centroid: median
+* cornerplots: ['Teff', 'FeH', 'radPhot', 'massfin', 'age']
+* dnu_scales: {}
+* dnusun: 135.1
+* freqplots: []
+* inputfile: input_JustKen.xml
+* kielplots: [True]
+* numsun: 3090.0
+* output: mnt/c/Users/georg/Documents/GitHub/Iwan-and-George-Year-4-Project/Results/
+* plotfmt: png
+* solarmodel: False
+* uncert: quantiles
+
+Weights and priors:
+* Bayesian weights:
+  - Along tracks: age
+  - Between tracks: volume
+* Flat, constrained priors and ranges:
+  - Teff: [4304.8731, 4313.2928999999995]
+  - FeH: [0.49750000000000005, 0.9975]
+* Additional priors (IMF): 
+
+
+Computing likelihood of models in the grid (5977 tracks) ...
+Done! Computed the likelihood of 156 models, found 156 models with non-zero likelihood!
+
+
+*****************************************
+**                                     **
+**   Output and results from the fit   **
+**                                     **
+*****************************************
+
+
+Highest likelihood model:
+* Weighted, non-normalized log-probability: -3307.8765142498846
+* Grid-index: grid/tracks/track0359[60], with parameters:
+  - Name: track0359-782.fgong
+  - Teff      :  4305.867273 
+  - FeH       :     0.544366 
+  - radPhot   :     0.708670 
+  - massfin   :     0.784936 
+  - age       :  6563.244260 
+
+Lowest chi2 model:
+* chi2: 6607.430102596216
+* Grid-index: grid/tracks/track0359[60], with parameters:
+  - Name: track0359-782.fgong
+  - Teff      :  4305.867273 
+  - FeH       :     0.544366 
+  - radPhot   :     0.708670 
+  - massfin   :     0.784936 
+  - age       :  6563.244260 
+
+
+Computing posterior distributions for the requested output parameters!
+==> Summary statistics printed below ...
+
+-----------------------------------------------------
+median     Teff          :   4305.867273
+err_plus   Teff          :      0.000000
+err_minus  Teff          :      0.000000
+-----------------------------------------------------
+median     FeH           :      0.544366
+err_plus   FeH           :      0.000000
+err_minus  FeH           :      0.000000
+-----------------------------------------------------
+median     radPhot       :      0.708670
+err_plus   radPhot       :      0.000000
+err_minus  radPhot       :      0.000000
+-----------------------------------------------------
+median     massfin       :      0.784936
+err_plus   massfin       :      0.000000
+err_minus  massfin       :      0.000000
+-----------------------------------------------------
+median     age           :   6563.244260
+err_plus   age           :      0.000000
+err_minus  age           :      0.000000
+-----------------------------------------------------
+
+Saved results to mnt/c/Users/georg/Documents/GitHub/Iwan-and-George-Year-4-Project/Results/JustKenResults.ascii.
+Saved corner plot to mnt/c/Users/georg/Documents/GitHub/Iwan-and-George-Year-4-Project/Results/3683121446312149504_corner.png.
+Saved Kiel diagram to mnt/c/Users/georg/Documents/GitHub/Iwan-and-George-Year-4-Project/Results/3683121446312149504_kiel.png.
+Did not get any frequency file input, skipping ratios and echelle plots.
+Saved dictionary to mnt/c/Users/georg/Documents/GitHub/Iwan-and-George-Year-4-Project/Results/3683121446312149504.json
+
+Finished on 2024-01-20 17:46:31 (runtime 9.0 s).
+
