@@ -24,6 +24,8 @@ def ScreamExtractor(File):
 def Offset(Column='ZPCORR_PARALLAX_GAIA'):
     Directory = 'C:/Users/georg/Documents/GitHub'
     File = ScreamExtractor(f'{Directory}/get_gaia/results/sample.ascii')
-    
-    return File[Column]
+    if Column == 'All':
+        return File
+    else:
+        return File[Column]
 

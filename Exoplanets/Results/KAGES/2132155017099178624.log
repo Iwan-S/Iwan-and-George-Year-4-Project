@@ -1,0 +1,135 @@
+========================================================================================
+                                         BASTA                                         
+                             The BAyesian STellar Algorithm                             
+
+                                     Version 1.2.1                                     
+
+                                (c) 2022, The BASTA Team                                
+                           https://github.com/BASTAcode/BASTA                           
+========================================================================================
+
+Run started on 2024-02-01 12:35:24 . 
+
+Random numbers initialised with seed: 2266 .
+
+Fitting star id: 2132155017099178624 .
+* Using the grid '/root/BASTA/grids/Garstec_AS09_barbieMS.hdf5' of type 'sobol tracks'.
+  - Grid built with BASTA version 1.3.1, timestamp: 2023-11-28 at 20:12:28.
+
+Transforming solar-based asteroseismic quantities:
+* Converting to solar units if needed...
+  - numax converted from 2730.00 microHz to 0.883495 solar units (solar value: 3090.000000 microHz)
+* Scaling dnu to the solar model in the grid (path: solar_models/suncal_as09_opal) ...
+  - dnufit scaled by 1.0082 from 118.20 to 119.17 microHz (grid Sun: 136.21 microHz, real Sun: 135.10 microHz)
+    (Note: Will be scaled back before outputting results!)
+Done!
+
+Fitting information:
+* Fitting parameters with values and uncertainties:
+  - numax (solar units): [0.883495145631068, 0.09061488673139159]
+  - dnufit: [119.17073194025633, 0.20164252443359787]
+  - Teff: [5647.0, 74.0]
+  - FeH: [-0.15, 0.1]
+
+Additional input parameters and settings in alphabetical order:
+* asciiparams: ['Teff', 'FeH', 'radPhot', 'massfin', 'age', 'numax', 'dnuscal']
+* centroid: median
+* cornerplots: ['Teff', 'FeH', 'radPhot', 'massfin', 'age', 'numax', 'dnuscal']
+* dnu_scales: {'dnufit': 1.0082126221679892}
+* dnusun: 135.1
+* freqplots: [True]
+* inputfile: input_KAGES.xml
+* kielplots: [True]
+* numsun: 3090.0
+* output: /mnt/c/Users/georg/Documents/GitHub/Iwan-and-George-Year-4-Project/Results/KAGES/
+* plotfmt: png
+* solarmodel: True
+* uncert: quantiles
+
+Weights and priors:
+* Bayesian weights:
+  - Along tracks: age
+  - Between tracks: volume
+* Flat, constrained priors and ranges:
+  - Teff: [5425.0, 5869.0]
+  - FeH: [-0.4, 0.1]
+* Additional priors (IMF): 
+
+
+Computing likelihood of models in the grid (5977 tracks) ...
+Done! Computed the likelihood of 121097 models, found 121097 models with non-zero likelihood!
+
+
+*****************************************
+**                                     **
+**   Output and results from the fit   **
+**                                     **
+*****************************************
+
+
+Highest likelihood model:
+* Weighted, non-normalized log-probability: -4.673069000057644
+* Grid-index: grid/tracks/track5207[142], with parameters:
+  - Name: track5207-1183.fgong
+  - Teff      :  5636.991902 
+  - FeH       :    -0.092968 
+  - radPhot   :     1.025637 
+  - massfin   :     0.821499 
+  - age       : 12295.850910 
+  - numax     :     0.791993 (after rescaling:  2447.256849)
+  - dnuscal   :     0.873763 (after rescaling:   118.045331)
+
+Lowest chi2 model:
+* chi2: 0.7137732273871138
+* Grid-index: grid/tracks/track4907[222], with parameters:
+  - Name: track4907-1594.fgong
+  - Teff      :  5673.354275 
+  - FeH       :    -0.187469 
+  - radPhot   :     1.075185 
+  - massfin   :     0.944511 
+  - age       :  9472.635054 
+  - numax     :     0.825936 (after rescaling:  2552.142216)
+  - dnuscal   :     0.872890 (after rescaling:   117.927451)
+
+
+Computing posterior distributions for the requested output parameters!
+==> Summary statistics printed below ...
+
+-----------------------------------------------------
+median     Teff          :   5648.849000
+err_plus   Teff          :     73.556141
+err_minus  Teff          :     74.495744
+-----------------------------------------------------
+median     FeH           :     -0.129269
+err_plus   FeH           :      0.106793
+err_minus  FeH           :      0.090288
+-----------------------------------------------------
+median     radPhot       :      1.050451
+err_plus   radPhot       :      0.025750
+err_minus  radPhot       :      0.024870
+-----------------------------------------------------
+median     massfin       :      0.881433
+err_plus   massfin       :      0.065119
+err_minus  massfin       :      0.059975
+-----------------------------------------------------
+median     age           :  11834.402480
+err_plus   age           :   2628.244320
+err_minus  age           :   2528.282204
+-----------------------------------------------------
+median     numax         :   2498.875825
+err_plus   numax         :     60.085138
+err_minus  numax         :     51.654925
+-----------------------------------------------------
+median     dnuscal       :    117.993641
+err_plus   dnuscal       :      0.203322
+err_minus  dnuscal       :      0.224111
+-----------------------------------------------------
+
+Saved results to /mnt/c/Users/georg/Documents/GitHub/Iwan-and-George-Year-4-Project/Results/KAGES/KAGESResults.ascii.
+Saved corner plot to /mnt/c/Users/georg/Documents/GitHub/Iwan-and-George-Year-4-Project/Results/KAGES/2132155017099178624_corner.png.
+Saved Kiel diagram to /mnt/c/Users/georg/Documents/GitHub/Iwan-and-George-Year-4-Project/Results/KAGES/2132155017099178624_kiel.png.
+Did not get any frequency file input, skipping ratios and echelle plots.
+Saved dictionary to /mnt/c/Users/georg/Documents/GitHub/Iwan-and-George-Year-4-Project/Results/KAGES/2132155017099178624.json
+
+Finished on 2024-02-01 12:36:08 (runtime 44.0 s).
+
