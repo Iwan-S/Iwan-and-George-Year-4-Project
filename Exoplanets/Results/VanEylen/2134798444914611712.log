@@ -1,0 +1,130 @@
+========================================================================================
+                                         BASTA                                         
+                             The BAyesian STellar Algorithm                             
+
+                                     Version 1.2.1                                     
+
+                                (c) 2022, The BASTA Team                                
+                           https://github.com/BASTAcode/BASTA                           
+========================================================================================
+
+Run started on 2024-02-25 16:14:44 . 
+
+Random numbers initialised with seed: 3305 .
+
+Fitting star id: 2134798444914611712 .
+* Using the grid '/root/BASTA/grids/Garstec_AS09_barbieMS.hdf5' of type 'sobol tracks'.
+  - Grid built with BASTA version 1.3.1, timestamp: 2023-11-28 at 20:12:28.
+
+Transforming solar-based asteroseismic quantities:
+* Converting to solar units if needed...
+* Solar model scaling not activated!  -->  Dnu will not be scaled.
+Done!
+
+Fitting information:
+* Fitting parameters with values and uncertainties:
+  - Teff: [5862.0, 97.0]
+  - FeH: [0.27, 0.11]
+
+Additional input parameters and settings in alphabetical order:
+* asciiparams: ['Teff', 'FeH', 'radPhot', 'massfin', 'age', 'numax', 'dnuscal']
+* centroid: median
+* cornerplots: ['Teff', 'FeH', 'radPhot', 'massfin', 'age', 'numax', 'dnuscal']
+* dnu_scales: {}
+* dnusun: 135.1
+* freqplots: [True]
+* inputfile: InputVanEylen.xml
+* kielplots: [True]
+* numsun: 3090.0
+* output: output/Output/VanEylen/
+* plotfmt: png
+* solarmodel: False
+* uncert: quantiles
+
+Weights and priors:
+* Bayesian weights:
+  - Along tracks: age
+  - Between tracks: volume
+* Flat, constrained priors and ranges:
+  - Teff: [5571.0, 6153.0]
+  - FeH: [0.020000000000000018, 0.52]
+* Additional priors (IMF): 
+
+
+Computing likelihood of models in the grid (5977 tracks) ...
+Done! Computed the likelihood of 182627 models, found 182627 models with non-zero likelihood!
+
+
+*****************************************
+**                                     **
+**   Output and results from the fit   **
+**                                     **
+*****************************************
+
+
+Highest likelihood model:
+* Weighted, non-normalized log-probability: -5.209009560994972
+* Grid-index: grid/tracks/track0209[110], with parameters:
+  - Name: track0209-1016.fgong
+  - Teff      :  5834.064398 
+  - FeH       :     0.214391 
+  - radPhot   :     0.993324 
+  - massfin   :     1.006784 
+  - age       :  3609.948786 
+  - numax     :     1.017171 (after rescaling:  3143.058810)
+  - dnuscal   :     1.014874 (after rescaling:   137.109515)
+
+Lowest chi2 model:
+* chi2: 5.968188023770204e-05
+* Grid-index: grid/tracks/track1141[317], with parameters:
+  - Name: track1141-1993.fgong
+  - Teff      :  5862.570277 
+  - FeH       :     0.269449 
+  - radPhot   :     1.566630 
+  - massfin   :     1.173349 
+  - age       :  5503.942568 
+  - numax     :     0.475418 (after rescaling:  1469.040560)
+  - dnuscal   :     0.553152 (after rescaling:    74.730810)
+
+
+Computing posterior distributions for the requested output parameters!
+==> Summary statistics printed below ...
+
+-----------------------------------------------------
+median     Teff          :   5823.343418
+err_plus   Teff          :     97.452190
+err_minus  Teff          :     86.341521
+-----------------------------------------------------
+median     FeH           :      0.227703
+err_plus   FeH           :      0.097986
+err_minus  FeH           :      0.093155
+-----------------------------------------------------
+median     radPhot       :      1.140015
+err_plus   radPhot       :      0.207424
+err_minus  radPhot       :      0.124088
+-----------------------------------------------------
+median     massfin       :      1.111876
+err_plus   massfin       :      0.058475
+err_minus  massfin       :      0.076946
+-----------------------------------------------------
+median     age           :   4100.295693
+err_plus   age           :   2487.926534
+err_minus  age           :   2716.388623
+-----------------------------------------------------
+median     numax         :   2621.982276
+err_plus   numax         :    604.525264
+err_minus  numax         :    712.973193
+-----------------------------------------------------
+median     dnuscal       :    116.954105
+err_plus   dnuscal       :     20.206684
+err_minus  dnuscal       :     25.201151
+-----------------------------------------------------
+
+Saved results to output/Output/VanEylen/VanEylenResults.ascii.
+Saved corner plot to output/Output/VanEylen/2134798444914611712_corner.png.
+Saved Kiel diagram to output/Output/VanEylen/2134798444914611712_kiel.png.
+Did not get any frequency file input, skipping ratios and echelle plots.
+Saved dictionary to output/Output/VanEylen/2134798444914611712.json
+
+Finished on 2024-02-25 16:15:20 (runtime 36.0 s).
+

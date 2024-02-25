@@ -1,0 +1,272 @@
+========================================================================================
+                                         BASTA                                         
+                             The BAyesian STellar Algorithm                             
+
+                                     Version 1.2.1                                     
+
+                                (c) 2022, The BASTA Team                                
+                           https://github.com/BASTAcode/BASTA                           
+========================================================================================
+
+Run started on 2024-02-25 13:31:24 . 
+
+Random numbers initialised with seed: 3950 .
+
+Fitting star id: 2143749504651818368 .
+* Using the grid '/root/BASTA/grids/Garstec_AS09_barbieMS.hdf5' of type 'sobol tracks'.
+  - Grid built with BASTA version 1.3.1, timestamp: 2023-11-28 at 20:12:28.
+
+Transforming solar-based asteroseismic quantities:
+* Converting to solar units if needed...
+* Solar model scaling not activated!  -->  Dnu will not be scaled.
+Done!
+
+Fitting information:
+* Fitting parameters with values and uncertainties:
+  - Teff: [5846.0, 60.0]
+  - FeH: [0.1, 0.04]
+  - Mk_2MASS: [11.717, 0.02]
+
+Additional input parameters and settings in alphabetical order:
+* asciiparams: ['Teff', 'FeH', 'radPhot', 'massfin', 'age', 'numax', 'dnuscal', 'Mk_2MASS']
+* centroid: median
+* cornerplots: ['Teff', 'FeH', 'radPhot', 'massfin', 'age', 'numax', 'dnuscal', 'Mk_2MASS']
+* dnu_scales: {}
+* dnusun: 135.1
+* freqplots: [True]
+* inputfile: InputFulton.xml
+* kielplots: [True]
+* numsun: 3090.0
+* output: output/Output/
+* plotfmt: png
+* solarmodel: False
+* uncert: quantiles
+
+Weights and priors:
+* Bayesian weights:
+  - Along tracks: age
+  - Between tracks: volume
+* Flat, constrained priors and ranges:
+  - Teff: [5666.0, 6026.0]
+  - FeH: [-0.15, 0.35]
+* Additional priors (IMF): 
+
+
+Computing likelihood of models in the grid (5977 tracks) ...
+BASTA failed for star 2143749504651818368 with the error:
+Traceback (most recent call last):
+  File "/root/BASTA/basta/xml_run.py", line 821, in run_xml
+    BASTA(
+  File "/root/BASTA/basta/bastamain.py", line 655, in BASTA
+    paramvals = libitem[param][index]
+  File "h5py/_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py/_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "/mnt/c/Users/georg/Documents/Homework/University/Year 4/Project/BASTA/venv/lib/python3.10/site-packages/h5py/_hl/group.py", line 357, in __getitem__
+    oid = h5o.open(self.id, self._e(name), lapl=self._lapl)
+  File "h5py/_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py/_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "h5py/h5o.pyx", line 190, in h5py.h5o.open
+KeyError: "Unable to open object (object 'Mk_2MASS' doesn't exist)"
+
+Saved results to output/Output/FultonResults.ascii.
+========================================================================================
+                                         BASTA                                         
+                             The BAyesian STellar Algorithm                             
+
+                                     Version 1.2.1                                     
+
+                                (c) 2022, The BASTA Team                                
+                           https://github.com/BASTAcode/BASTA                           
+========================================================================================
+
+Run started on 2024-02-25 13:40:35 . 
+
+Random numbers initialised with seed: 3158 .
+
+Fitting star id: 2143749504651818368 .
+* Using the grid '/root/BASTA/grids/Garstec_AS09_barbieMS.hdf5' of type 'sobol tracks'.
+  - Grid built with BASTA version 1.3.1, timestamp: 2023-11-28 at 20:12:28.
+
+Transforming solar-based asteroseismic quantities:
+* Converting to solar units if needed...
+* Solar model scaling not activated!  -->  Dnu will not be scaled.
+Done!
+
+Fitting information:
+* Fitting parameters with values and uncertainties:
+  - Teff: [5846.0, 60.0]
+  - FeH: [0.1, 0.04]
+  - Mk_2MASS: [11.717, 0.02]
+
+Additional input parameters and settings in alphabetical order:
+* asciiparams: ['Teff', 'FeH', 'radPhot', 'massfin', 'age', 'numax', 'dnuscal']
+* centroid: median
+* cornerplots: ['Teff', 'FeH', 'radPhot', 'massfin', 'age', 'numax', 'dnuscal']
+* dnu_scales: {}
+* dnusun: 135.1
+* freqplots: [True]
+* inputfile: InputFulton.xml
+* kielplots: [True]
+* numsun: 3090.0
+* output: output/Output/
+* plotfmt: png
+* solarmodel: False
+* uncert: quantiles
+
+Weights and priors:
+* Bayesian weights:
+  - Along tracks: age
+  - Between tracks: volume
+* Flat, constrained priors and ranges:
+  - Teff: [5666.0, 6026.0]
+  - FeH: [-0.15, 0.35]
+* Additional priors (IMF): 
+
+
+Computing likelihood of models in the grid (5977 tracks) ...
+BASTA failed for star 2143749504651818368 with the error:
+Traceback (most recent call last):
+  File "/root/BASTA/basta/xml_run.py", line 821, in run_xml
+    BASTA(
+  File "/root/BASTA/basta/bastamain.py", line 655, in BASTA
+    paramvals = libitem[param][index]
+  File "h5py/_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py/_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "/mnt/c/Users/georg/Documents/Homework/University/Year 4/Project/BASTA/venv/lib/python3.10/site-packages/h5py/_hl/group.py", line 357, in __getitem__
+    oid = h5o.open(self.id, self._e(name), lapl=self._lapl)
+  File "h5py/_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py/_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "h5py/h5o.pyx", line 190, in h5py.h5o.open
+KeyError: "Unable to open object (object 'Mk_2MASS' doesn't exist)"
+
+Saved results to output/Output/FultonResults.ascii.
+========================================================================================
+                                         BASTA                                         
+                             The BAyesian STellar Algorithm                             
+
+                                     Version 1.2.1                                     
+
+                                (c) 2022, The BASTA Team                                
+                           https://github.com/BASTAcode/BASTA                           
+========================================================================================
+
+Run started on 2024-02-25 15:03:52 . 
+
+Random numbers initialised with seed: 1515 .
+
+Fitting star id: 2143749504651818368 .
+* Using the grid '/root/BASTA/grids/Garstec_AS09_barbieMS.hdf5' of type 'sobol tracks'.
+  - Grid built with BASTA version 1.3.1, timestamp: 2023-11-28 at 20:12:28.
+
+Transforming solar-based asteroseismic quantities:
+* Converting to solar units if needed...
+* Solar model scaling not activated!  -->  Dnu will not be scaled.
+Done!
+
+Fitting information:
+* Fitting parameters with values and uncertainties:
+  - Teff: [5846.0, 60.0]
+  - FeH: [0.1, 0.04]
+
+Additional input parameters and settings in alphabetical order:
+* asciiparams: ['Teff', 'FeH', 'radPhot', 'massfin', 'age', 'numax', 'dnuscal']
+* centroid: median
+* cornerplots: ['Teff', 'FeH', 'radPhot', 'massfin', 'age', 'numax', 'dnuscal']
+* dnu_scales: {}
+* dnusun: 135.1
+* freqplots: [True]
+* inputfile: InputFulton.xml
+* kielplots: [True]
+* numsun: 3090.0
+* output: output/Output/
+* plotfmt: png
+* solarmodel: False
+* uncert: quantiles
+
+Weights and priors:
+* Bayesian weights:
+  - Along tracks: age
+  - Between tracks: volume
+* Flat, constrained priors and ranges:
+  - Teff: [5666.0, 6026.0]
+  - FeH: [-0.15, 0.35]
+* Additional priors (IMF): 
+
+
+Computing likelihood of models in the grid (5977 tracks) ...
+Done! Computed the likelihood of 147927 models, found 147927 models with non-zero likelihood!
+
+
+*****************************************
+**                                     **
+**   Output and results from the fit   **
+**                                     **
+*****************************************
+
+
+Highest likelihood model:
+* Weighted, non-normalized log-probability: -4.726878354203495
+* Grid-index: grid/tracks/track2859[118], with parameters:
+  - Name: track2859-1063.fgong
+  - Teff      :  5850.166870 
+  - FeH       :     0.102996 
+  - radPhot   :     0.962781 
+  - massfin   :     0.944733 
+  - age       :  4931.560245 
+  - numax     :     1.014600 (after rescaling:  3135.112937)
+  - dnuscal   :     1.030252 (after rescaling:   139.187060)
+
+Lowest chi2 model:
+* chi2: 5.761947518469837e-05
+* Grid-index: grid/tracks/track1305[112], with parameters:
+  - Name: track1305-1027.fgong
+  - Teff      :  5845.579695 
+  - FeH       :     0.099883 
+  - radPhot   :     0.999728 
+  - massfin   :     1.031797 
+  - age       :  3277.035228 
+  - numax     :     1.028116 (after rescaling:  3176.876985)
+  - dnuscal   :     1.017548 (after rescaling:   137.470716)
+
+
+Computing posterior distributions for the requested output parameters!
+==> Summary statistics printed below ...
+
+-----------------------------------------------------
+median     Teff          :   5839.267998
+err_plus   Teff          :     51.003139
+err_minus  Teff          :     58.103894
+-----------------------------------------------------
+median     FeH           :      0.098329
+err_plus   FeH           :      0.039745
+err_minus  FeH           :      0.039296
+-----------------------------------------------------
+median     radPhot       :      1.113204
+err_plus   radPhot       :      0.249614
+err_minus  radPhot       :      0.133721
+-----------------------------------------------------
+median     massfin       :      1.054351
+err_plus   massfin       :      0.067261
+err_minus  massfin       :      0.066429
+-----------------------------------------------------
+median     age           :   5173.608418
+err_plus   age           :   2248.321696
+err_minus  age           :   3212.288004
+-----------------------------------------------------
+median     numax         :   2598.126886
+err_plus   numax         :    717.829681
+err_minus  numax         :    815.291772
+-----------------------------------------------------
+median     dnuscal       :    117.855300
+err_plus   dnuscal       :     23.871941
+err_minus  dnuscal       :     29.564566
+-----------------------------------------------------
+
+Saved results to output/Output/FultonResults.ascii.
+Saved corner plot to output/Output/2143749504651818368_corner.png.
+Saved Kiel diagram to output/Output/2143749504651818368_kiel.png.
+Did not get any frequency file input, skipping ratios and echelle plots.
+Saved dictionary to output/Output/2143749504651818368.json
+
+Finished on 2024-02-25 15:04:20 (runtime 28.0 s).
+
