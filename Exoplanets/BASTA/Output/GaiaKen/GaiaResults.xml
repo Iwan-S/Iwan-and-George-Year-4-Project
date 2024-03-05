@@ -1,0 +1,119 @@
+<?xml version="1.0" ?>
+<stars>
+	<star starid="181908842994567936">
+		<Teff value="6509.4021235" error_plus="58.7939765000001" error_minus="52.961567500000456" unit="K">
+			<remarks>Effective temperature</remarks>
+		</Teff>
+		<FeH value="0.08593750072766762" error_plus="0.03945312516121424" error_minus="0.048632812763799375" unit="dex">
+			<remarks>Iron abundance</remarks>
+		</FeH>
+		<radPhot value="1.460830035024759" error_plus="0.08825438384605211" error_minus="0.07449245184814557" unit="solar">
+			<remarks>Photospheric radius</remarks>
+		</radPhot>
+		<massfin value="1.2154290055804133" error_plus="0.07111834498014158" error_minus="0.05896541149263501" unit="solar">
+			<remarks>Current mass</remarks>
+		</massfin>
+		<age value="2668.294471" error_plus="762.5506399999999" error_minus="416.43550700000014" unit="Myr">
+			<remarks>Current age in Myr</remarks>
+		</age>
+		<numax value="1661.9056669779138" error_plus="151.5134807679749" error_minus="144.82474557159298" unit="solar">
+			<remarks>Frequency of maximum oscillation power</remarks>
+		</numax>
+		<dnuscal value="84.41583167319713" error_plus="6.06413784151583" error_minus="5.878851378311197" unit="solar">
+			<remarks>Large frequency separation from scaling relations</remarks>
+		</dnuscal>
+	</star>
+	<star starid="3342228616422593664">
+		<Teff value="6268.342609" error_plus="55.02535699999953" error_minus="55.893473000000085" unit="K">
+			<remarks>Effective temperature</remarks>
+		</Teff>
+		<FeH value="0.031640626574741336" error_plus="0.03242187456173349" error_minus="0.03593749998351023" unit="dex">
+			<remarks>Iron abundance</remarks>
+		</FeH>
+		<radPhot value="1.791667952058064" error_plus="0.09353428429291966" error_minus="0.08279812166071432" unit="solar">
+			<remarks>Photospheric radius</remarks>
+		</radPhot>
+		<massfin value="1.148156484842391" error_plus="0.05896435171685677" error_minus="0.02904074757427999" unit="solar">
+			<remarks>Current mass</remarks>
+		</massfin>
+		<age value="4681.381784" error_plus="424.46839" error_minus="577.2605840000006" unit="Myr">
+			<remarks>Current age in Myr</remarks>
+		</age>
+		<numax value="1068.6889080664341" error_plus="92.80278151706148" error_minus="84.55885538141445" unit="solar">
+			<remarks>Frequency of maximum oscillation power</remarks>
+		</numax>
+		<dnuscal value="60.59479846593518" error_plus="4.013536386342743" error_minus="3.7672018691717284" unit="solar">
+			<remarks>Large frequency separation from scaling relations</remarks>
+		</dnuscal>
+	</star>
+	<star starid="5351820556994135296">
+		<Teff value="6546.841976" error_plus="53.17080900000019" error_minus="66.17781599999944" unit="K">
+			<remarks>Effective temperature</remarks>
+		</Teff>
+		<FeH value="-0.1585937495682687" error_plus="0.025781250235051623" error_minus="0.04492187471362452" unit="dex">
+			<remarks>Iron abundance</remarks>
+		</FeH>
+		<radPhot value="1.5430935675793809" error_plus="0.08569517963847995" error_minus="0.06393352053463075" unit="solar">
+			<remarks>Photospheric radius</remarks>
+		</radPhot>
+		<massfin value="1.146242424211955" error_plus="0.055908265547232494" error_minus="0.035025554773515655" unit="solar">
+			<remarks>Current mass</remarks>
+		</massfin>
+		<age value="3980.207639" error_plus="475.41517999999996" error_minus="540.2953050000001" unit="Myr">
+			<remarks>Current age in Myr</remarks>
+		</age>
+		<numax value="1407.2707674913192" error_plus="117.50843010373728" error_minus="124.74656596323348" unit="solar">
+			<remarks>Frequency of maximum oscillation power</remarks>
+		</numax>
+		<dnuscal value="75.74715625827558" error_plus="4.70772708878134" error_minus="5.288730047765625" unit="solar">
+			<remarks>Large frequency separation from scaling relations</remarks>
+		</dnuscal>
+	</star>
+	<star starid="6086712585429729536">
+		<Teff value="6878.286626" error_plus="52.78053600000021" error_minus="46.617678000000524" unit="K">
+			<remarks>Effective temperature</remarks>
+		</Teff>
+		<FeH value="-0.21289062466978215" error_plus="0.034570312275247095" error_minus="0.03515625000208217" unit="dex">
+			<remarks>Iron abundance</remarks>
+		</FeH>
+		<radPhot value="1.6861276045710474" error_plus="0.0758172702542601" error_minus="0.07505990585298816" unit="solar">
+			<remarks>Photospheric radius</remarks>
+		</radPhot>
+		<massfin value="1.164281164848424" error_plus="0.053976953396008165" error_minus="0.02504143632798761" unit="solar">
+			<remarks>Current mass</remarks>
+		</massfin>
+		<age value="2960.808178" error_plus="182.40534799999978" error_minus="246.33811500000002" unit="Myr">
+			<remarks>Current age in Myr</remarks>
+		</age>
+		<numax value="1171.1683257517016" error_plus="98.44369303504845" error_minus="81.94690481198131" unit="solar">
+			<remarks>Frequency of maximum oscillation power</remarks>
+		</numax>
+		<dnuscal value="66.9433776908014" error_plus="4.411158590522319" error_minus="3.7288183081149384" unit="solar">
+			<remarks>Large frequency separation from scaling relations</remarks>
+		</dnuscal>
+	</star>
+	<star starid="6154982877300947840">
+		<Teff value="6903.549564000001" error_plus="55.416974999999184" error_minus="52.893027000000984" unit="K">
+			<remarks>Effective temperature</remarks>
+		</Teff>
+		<FeH value="-0.17128906221389" error_plus="0.029492187497637934" error_minus="0.04941406242491586" unit="dex">
+			<remarks>Iron abundance</remarks>
+		</FeH>
+		<radPhot value="1.5463441067536248" error_plus="0.08154055021653228" error_minus="0.0744331898410946" unit="solar">
+			<remarks>Photospheric radius</remarks>
+		</radPhot>
+		<massfin value="1.1753769905987632" error_plus="0.06910712684128506" error_minus="0.023018598361067788" unit="solar">
+			<remarks>Current mass</remarks>
+		</massfin>
+		<age value="2598.44602" error_plus="299.274774" error_minus="549.3645979999997" unit="Myr">
+			<remarks>Current age in Myr</remarks>
+		</age>
+		<numax value="1410.9660853501223" error_plus="133.6204013336055" error_minus="124.99307692170555" unit="solar">
+			<remarks>Frequency of maximum oscillation power</remarks>
+		</numax>
+		<dnuscal value="76.8044688178534" error_plus="5.403504779087626" error_minus="5.20865394592478" unit="solar">
+			<remarks>Large frequency separation from scaling relations</remarks>
+		</dnuscal>
+	</star>
+</stars>
+
