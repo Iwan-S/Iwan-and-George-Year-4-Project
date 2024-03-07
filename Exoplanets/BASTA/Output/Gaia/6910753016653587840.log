@@ -1,0 +1,280 @@
+========================================================================================
+                                         BASTA                                         
+                             The BAyesian STellar Algorithm                             
+
+                                     Version 1.2.1                                     
+
+                                (c) 2022, The BASTA Team                                
+                           https://github.com/BASTAcode/BASTA                           
+========================================================================================
+
+Run started on 2024-02-29 19:29:17 . 
+
+Random numbers initialised with seed: 2360 .
+
+Fitting star id: 6910753016653587840 .
+* Using the grid '/root/BASTA/grids/Garstec_AS09_barbieMS.hdf5' of type 'sobol tracks'.
+  - Grid built with BASTA version 1.3.1, timestamp: 2023-11-28 at 20:12:28.
+
+Preparing distance/parallax/magnitude input ...
+Done!
+
+Transforming solar-based asteroseismic quantities:
+* Converting to solar units if needed...
+* Solar model scaling not activated!  -->  Dnu will not be scaled.
+Done!
+
+Fitting information:
+* Fitting parameters with values and uncertainties:
+  - Teff: [4729.3774, 60.0]
+  - FeH: [0.3494, 0.04]
+  - logg: [4.5058, 0.04]
+  - G_GAIA: [9.491504, 0.5]
+* Parallax fitting activated!
+  - Coordinates (icrs): RA = 315.0259708078886, DEC = -5.094870064
+  - Filters (magnitude value and uncertainty): 
+    + G_GAIA: [9.491504, 0.5]
+  - Parallax: [19.92131674180276, 0.017034205]
+
+Additional input parameters and settings in alphabetical order:
+* asciiparams: ['Teff', 'FeH', 'radPhot', 'massfin', 'age', 'numax', 'dnuscal']
+* centroid: median
+* cornerplots: ['Teff', 'FeH', 'radPhot', 'massfin', 'age', 'numax', 'dnuscal']
+* dnu_scales: {}
+* dnusun: 135.1
+* freqplots: [True]
+* inputfile: InputGaia.xml
+* kielplots: [True]
+* numsun: 3090.0
+* output: output/Output/Gaia/
+* plotfmt: png
+* solarmodel: False
+* uncert: quantiles
+
+Weights and priors:
+* Bayesian weights:
+  - Along tracks: age
+  - Between tracks: volume
+* Flat, constrained priors and ranges:
+  - Teff: [4549.3774, 4909.3774]
+  - FeH: [0.09939999999999999, 0.5]
+* Additional priors (IMF): 
+
+
+Computing likelihood of models in the grid (5977 tracks) ...
+Done! Computed the likelihood of 66499 models, found 66499 models with non-zero likelihood!
+
+
+*****************************************
+**                                     **
+**   Output and results from the fit   **
+**                                     **
+*****************************************
+
+
+Highest likelihood model:
+* Weighted, non-normalized log-probability: -24.41116663182142
+* Grid-index: grid/tracks/track3055[112], with parameters:
+  - Name: track3055-1034.fgong
+  - Teff      :  4672.481239 
+  - FeH       :     0.349649 
+  - radPhot   :     0.763145 
+  - massfin   :     0.746780 
+  - age       : 16614.864260 
+  - numax     :     1.428334 (after rescaling:  4413.553579)
+  - dnuscal   :     1.297975 (after rescaling:   175.356385)
+
+Lowest chi2 model:
+* chi2: 40.6846813679242
+* Grid-index: grid/tracks/track3055[109], with parameters:
+  - Name: track3055-1019.fgong
+  - Teff      :  4664.559446 
+  - FeH       :     0.352339 
+  - radPhot   :     0.759457 
+  - massfin   :     0.746788 
+  - age       : 16155.864260 
+  - numax     :     1.443479 (after rescaling:  4460.348768)
+  - dnuscal   :     1.307447 (after rescaling:   176.636084)
+
+
+Computing posterior distributions for the requested output parameters!
+==> Summary statistics printed below ...
+
+-----------------------------------------------------
+median     Teff          :   4661.982467
+err_plus   Teff          :     55.516161
+err_minus  Teff          :     52.168093
+-----------------------------------------------------
+median     FeH           :      0.340573
+err_plus   FeH           :      0.037538
+err_minus  FeH           :      0.035661
+-----------------------------------------------------
+median     radPhot       :      0.778422
+err_plus   radPhot       :      0.036328
+err_minus  radPhot       :      0.030865
+-----------------------------------------------------
+median     massfin       :      0.788843
+err_plus   massfin       :      0.058015
+err_minus  massfin       :      0.036934
+-----------------------------------------------------
+median     age           :  12337.814440
+err_plus   age           :   4506.935480
+err_minus  age           :   6385.466327
+-----------------------------------------------------
+median     numax         :   4503.910078
+err_plus   numax         :    336.154403
+err_minus  numax         :    282.928640
+-----------------------------------------------------
+median     dnuscal       :    175.231094
+err_plus   dnuscal       :      9.334904
+err_minus  dnuscal       :      8.484675
+-----------------------------------------------------
+
+Saved results to output/Output/Gaia/GaiaResults.ascii.
+Saved corner plot to output/Output/Gaia/6910753016653587840_corner.png.
+Saved Kiel diagram to output/Output/Gaia/6910753016653587840_kiel.png.
+Did not get any frequency file input, skipping ratios and echelle plots.
+Saved dictionary to output/Output/Gaia/6910753016653587840.json
+
+Finished on 2024-02-29 19:29:56 (runtime 39.0 s).
+
+========================================================================================
+                                         BASTA                                         
+                             The BAyesian STellar Algorithm                             
+
+                                     Version 1.2.1                                     
+
+                                (c) 2022, The BASTA Team                                
+                           https://github.com/BASTAcode/BASTA                           
+========================================================================================
+
+Run started on 2024-03-07 11:53:49 . 
+
+Random numbers initialised with seed: 2451 .
+
+Fitting star id: 6910753016653587840 .
+* Using the grid '/root/BASTA/grids/Garstec_AS09_barbieMS.hdf5' of type 'sobol tracks'.
+  - Grid built with BASTA version 1.3.1, timestamp: 2023-11-28 at 20:12:28.
+
+Preparing distance/parallax/magnitude input ...
+Done!
+
+Transforming solar-based asteroseismic quantities:
+* Converting to solar units if needed...
+* Solar model scaling not activated!  -->  Dnu will not be scaled.
+Done!
+
+Fitting information:
+* Fitting parameters with values and uncertainties:
+  - Teff: [4729.3774, 102.0338016]
+  - FeH: [0.3494, 0.132515999]
+  - logg: [4.5058, 0.160026279]
+  - G_GAIA: [9.491504, 0.5]
+* Parallax fitting activated!
+  - Coordinates (icrs): RA = 315.0259708078886, DEC = -5.094870064
+  - Filters (magnitude value and uncertainty): 
+    + G_GAIA: [9.491504, 0.5]
+  - Parallax: [19.92131674180276, 0.017034205]
+
+Additional input parameters and settings in alphabetical order:
+* asciiparams: ['Teff', 'FeH', 'radPhot', 'massfin', 'age', 'numax', 'dnuscal']
+* centroid: median
+* cornerplots: ['Teff', 'FeH', 'radPhot', 'massfin', 'age', 'numax', 'dnuscal']
+* dnu_scales: {}
+* dnusun: 135.1
+* freqplots: [True]
+* inputfile: InputGaia2.xml
+* kielplots: [True]
+* numsun: 3090.0
+* output: output/Output/Gaia/
+* plotfmt: png
+* solarmodel: False
+* uncert: quantiles
+
+Weights and priors:
+* Bayesian weights:
+  - Along tracks: age
+  - Between tracks: volume
+* Flat, constrained priors and ranges:
+  - Teff: [4423.275995200001, 5035.4788048]
+  - FeH: [0.09939999999999999, 0.5]
+* Additional priors (IMF): 
+
+
+Computing likelihood of models in the grid (5977 tracks) ...
+Done! Computed the likelihood of 118176 models, found 118176 models with non-zero likelihood!
+
+
+*****************************************
+**                                     **
+**   Output and results from the fit   **
+**                                     **
+*****************************************
+
+
+Highest likelihood model:
+* Weighted, non-normalized log-probability: -21.061413653109106
+* Grid-index: grid/tracks/track4895[7], with parameters:
+  - Name: track4895-514.fgong
+  - Teff      :  4514.750500 
+  - FeH       :     0.295110 
+  - radPhot   :     0.651274 
+  - massfin   :     0.717995 
+  - age       :   486.827018 
+  - numax     :     1.918236 (after rescaling:  5927.349841)
+  - dnuscal   :     1.614342 (after rescaling:   218.097545)
+
+Lowest chi2 model:
+* chi2: 30.78385564550363
+* Grid-index: grid/tracks/track4223[0], with parameters:
+  - Name: track4223-479.fgong
+  - Teff      :  4498.994127 
+  - FeH       :     0.315161 
+  - radPhot   :     0.630219 
+  - massfin   :     0.704000 
+  - age       :    85.497730 
+  - numax     :     2.012137 (after rescaling:  6217.504307)
+  - dnuscal   :     1.679307 (after rescaling:   226.874321)
+
+
+Computing posterior distributions for the requested output parameters!
+==> Summary statistics printed below ...
+
+-----------------------------------------------------
+median     Teff          :   4555.103997
+err_plus   Teff          :     92.929537
+err_minus  Teff          :     67.356814
+-----------------------------------------------------
+median     FeH           :      0.280983
+err_plus   FeH           :      0.099235
+err_minus  FeH           :      0.100002
+-----------------------------------------------------
+median     radPhot       :      0.712159
+err_plus   radPhot       :      0.040401
+err_minus  radPhot       :      0.032328
+-----------------------------------------------------
+median     massfin       :      0.756881
+err_plus   massfin       :      0.050064
+err_minus  massfin       :      0.033982
+-----------------------------------------------------
+median     age           :   5021.802164
+err_plus   age           :   6270.212946
+err_minus  age           :   3670.491220
+-----------------------------------------------------
+median     numax         :   5239.408737
+err_plus   numax         :    340.264034
+err_minus  numax         :    419.714134
+-----------------------------------------------------
+median     dnuscal       :    196.464681
+err_plus   dnuscal       :     10.558814
+err_minus  dnuscal       :     12.382068
+-----------------------------------------------------
+
+Saved results to output/Output/Gaia/GaiaResults2.ascii.
+Saved corner plot to output/Output/Gaia/6910753016653587840_corner.png.
+Saved Kiel diagram to output/Output/Gaia/6910753016653587840_kiel.png.
+Did not get any frequency file input, skipping ratios and echelle plots.
+Saved dictionary to output/Output/Gaia/6910753016653587840.json
+
+Finished on 2024-03-07 11:54:17 (runtime 28.0 s).
+
