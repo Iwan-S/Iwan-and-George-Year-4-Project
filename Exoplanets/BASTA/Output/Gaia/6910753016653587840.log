@@ -8,9 +8,9 @@
                            https://github.com/BASTAcode/BASTA                           
 ========================================================================================
 
-Run started on 2024-03-08 23:01:58 . 
+Run started on 2024-03-09 16:40:51 . 
 
-Random numbers initialised with seed: 3180 .
+Random numbers initialised with seed: 1417 .
 
 Fitting star id: 6910753016653587840 .
 * Using the grid '/root/BASTA/grids/Garstec_AS09_barbieMS.hdf5' of type 'sobol tracks'.
@@ -32,7 +32,7 @@ Fitting information:
 * Parallax fitting activated!
   - Coordinates (icrs): RA = 315.0259708078886, DEC = -5.094870064
   - Filters (magnitude value and uncertainty): 
-    + G_GAIA: [9.491504, 0.5]
+    + G_GAIA: [9.491504, 0.01]
   - Parallax: [19.92131674180276, 0.017034205]
 
 Additional input parameters and settings in alphabetical order:
@@ -42,10 +42,10 @@ Additional input parameters and settings in alphabetical order:
 * dnu_scales: {}
 * dnusun: 135.1
 * freqplots: [True]
-* inputfile: InputGaia2.xml
+* inputfile: InputGaiaBetter.xml
 * kielplots: [True]
 * numsun: 3090.0
-* output: output/Output/Gaia2/
+* output: output/Output/GaiaBetter/
 * plotfmt: png
 * solarmodel: True
 * uncert: quantiles
@@ -55,13 +55,13 @@ Weights and priors:
   - Along tracks: age
   - Between tracks: volume
 * Flat, constrained priors and ranges:
-  - Teff: [4579.3774, 4879.3774]
+  - Teff: [4429.3774, 5029.3774]
   - FeH: [-4.0, 0.5]
 * Additional priors (IMF): salpeter1955
 
 
 Computing likelihood of models in the grid (5977 tracks) ...
-Done! Computed the likelihood of 66263 models, found 66263 models with non-zero likelihood!
+Done! Computed the likelihood of 139558 models, found 96226 models with non-zero likelihood!
 
 
 *****************************************
@@ -72,16 +72,16 @@ Done! Computed the likelihood of 66263 models, found 66263 models with non-zero 
 
 
 Highest likelihood model:
-* Weighted, non-normalized log-probability: -3.1892414205396915
-* Grid-index: grid/tracks/track0399[124], with parameters:
-  - Name: track0399-1098.fgong
-  - Teff      :  4744.210640 
-  - FeH       :     0.244119 
-  - radPhot   :     0.782035 
-  - massfin   :     0.735726 
-  - age       : 19706.156260 
-  - numax     :     1.329863 (after rescaling:  4109.275507)
-  - dnuscal   :     1.241936 (after rescaling:   167.785506)
+* Weighted, non-normalized log-probability: -2.3256542267830436
+* Grid-index: grid/tracks/track2695[150], with parameters:
+  - Name: track2695-1210.fgong
+  - Teff      :  4790.626651 
+  - FeH       :     0.306180 
+  - radPhot   :     0.841030 
+  - massfin   :     0.769690 
+  - age       : 19051.685470 
+  - numax     :     1.197076 (after rescaling:  3698.964989)
+  - dnuscal   :     1.138993 (after rescaling:   153.877943)
 
 Lowest chi2 model:
 * chi2: 0.0027491942757143562
@@ -100,40 +100,40 @@ Computing posterior distributions for the requested output parameters!
 ==> Summary statistics printed below ...
 
 -----------------------------------------------------
-median     Teff          :   4729.984520
-err_plus   Teff          :     80.978007
-err_minus  Teff          :     76.583491
+median     Teff          :   4782.629324
+err_plus   Teff          :     76.066195
+err_minus  Teff          :     71.841937
 -----------------------------------------------------
-median     FeH           :      0.311710
-err_plus   FeH           :      0.079091
-err_minus  FeH           :      0.108875
+median     FeH           :      0.324487
+err_plus   FeH           :      0.071733
+err_minus  FeH           :      0.098952
 -----------------------------------------------------
-median     radPhot       :      0.797434
-err_plus   radPhot       :      0.052674
-err_minus  radPhot       :      0.048165
+median     radPhot       :      0.828737
+err_plus   radPhot       :      0.040532
+err_minus  radPhot       :      0.037996
 -----------------------------------------------------
-median     massfin       :      0.823754
-err_plus   massfin       :      0.064222
-err_minus  massfin       :      0.055059
+median     massfin       :      0.851886
+err_plus   massfin       :      0.054961
+err_minus  massfin       :      0.052123
 -----------------------------------------------------
-median     age           :   9919.124157
-err_plus   age           :   6925.625763
-err_minus  age           :   6547.417649
+median     age           :  10963.588305
+err_plus   age           :   6511.387165
+err_minus  age           :   6362.078796
 -----------------------------------------------------
-median     numax         :   4450.644779
-err_plus   numax         :    452.932555
-err_minus  numax         :    435.962515
+median     numax         :   4210.060986
+err_plus   numax         :    390.742109
+err_minus  numax         :    335.472235
 -----------------------------------------------------
-median     dnuscal       :    172.821935
-err_plus   dnuscal       :     13.309315
-err_minus  dnuscal       :     13.069478
+median     dnuscal       :    165.310516
+err_plus   dnuscal       :     10.836851
+err_minus  dnuscal       :      9.852585
 -----------------------------------------------------
 
-Saved results to output/Output/Gaia2/GaiaResults2.ascii.
-Saved corner plot to output/Output/Gaia2/6910753016653587840_corner.png.
-Saved Kiel diagram to output/Output/Gaia2/6910753016653587840_kiel.png.
+Saved results to output/Output/GaiaBetter/GaiaBetterResults.ascii.
+Saved corner plot to output/Output/GaiaBetter/6910753016653587840_corner.png.
+Saved Kiel diagram to output/Output/GaiaBetter/6910753016653587840_kiel.png.
 Did not get any frequency file input, skipping ratios and echelle plots.
-Saved dictionary to output/Output/Gaia2/6910753016653587840.json
+Saved dictionary to output/Output/GaiaBetter/6910753016653587840.json
 
-Finished on 2024-03-08 23:03:06 (runtime 68.0 s).
+Finished on 2024-03-09 16:41:25 (runtime 34.0 s).
 
