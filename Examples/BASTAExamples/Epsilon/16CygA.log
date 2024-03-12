@@ -1,0 +1,158 @@
+========================================================================================
+                                         BASTA                                         
+                             The BAyesian STellar Algorithm                             
+
+                                     Version 1.2.1                                     
+
+                                (c) 2022, The BASTA Team                                
+                           https://github.com/BASTAcode/BASTA                           
+========================================================================================
+
+Run started on 2023-11-23 16:09:07 . 
+
+Random numbers initialised with seed: 3902 .
+
+Fitting star id: 16CygA .
+* Using the grid '/root/BASTA/grids/Garstec_16CygA.hdf5' of type 'sobol tracks'.
+  - Grid built with BASTA version 1.1.4, timestamp: 2022-02-28 at 11:29:45.
+
+Transforming solar-based asteroseismic quantities:
+* Converting to solar units if needed...
+* Scaling dnu to the solar model in the grid (path: solar_models/suncal_as09_opal) ...
+  - dnufit scaled by 1.0082 from 103.30 to 104.15 microHz (grid Sun: 136.21 microHz, real Sun: 135.10 microHz)
+    (Note: Will be scaled back before outputting results!)
+Done!
+
+Preparing asteroseismic input ...
+Done!
+
+Fitting information:
+* Fitting parameters with values and uncertainties:
+  - Teff: [5825.0, 50.0]
+  - FeH: [0.1, 0.026]
+* Fitting of epsilon differences e012 activated!
+  - Automatic prior on dnu: Yes
+  - Constraining lowest l = 0 (n = 12) with f = 1390.808 +/- 0.863 muHz to within 15.0 % of dnu (15.622 microHz)
+  - Correlations: Yes
+  - Frequency input data: /root/BASTA/examples/data/freqs/16CygA.xml
+  - Frequency input data (list of ignored modes): None
+  - Inclusion of dnu in ratios fit: No
+  - Interpolation in ratios: Yes
+  - Surface effect correction: BG14
+  - Use alternative ratios (3-point): No
+  - Value of dnu: 104.148 +/- 0.504 microHz
+  - Value of numax: 2188.500 microHz
+  - Weighting scheme: 1/N
+
+Additional input parameters and settings in alphabetical order:
+* asciiparams: ['Teff', 'FeH', 'dnufit', 'numax', 'radPhot', 'massfin', 'age']
+* centroid: median
+* cornerplots: ['Teff', 'FeH', 'dnufit', 'numax', 'radPhot', 'massfin', 'age']
+* dnu_scales: {'dnufit': 1.0082126221679892}
+* dnusun: 135.1
+* freqplots: [True]
+* inputfile: input_epsilondifference.xml
+* kielplots: [True]
+* numsun: 3090.0
+* output: /mnt/c/Users/georg/Documents/GitHub/Iwan-and-George-Year-4-Project/BASTAExamples/Epsilon/
+* plotfmt: pdf
+* solarmodel: True
+* uncert: quantiles
+
+Weights and priors:
+* Bayesian weights:
+  - Along tracks: age
+  - Between tracks: volume
+* Flat, constrained priors and ranges:
+  - Teff: [5675.0, 5975.0]
+  - FeH: [-0.15, 0.35]
+  - dnufit: [88.5261092894603, 119.77061845044628]
+* Additional priors (IMF): salpeter1955
+
+
+Computing likelihood of models in the grid (255 tracks) ...
+Done! Computed the likelihood of 996 models, found 996 models with non-zero likelihood!
+
+
+*****************************************
+**                                     **
+**   Output and results from the fit   **
+**                                     **
+*****************************************
+
+
+Highest likelihood model:
+* Weighted, non-normalized log-probability: -4.4075492169691435
+* Grid-index: grid/tracks/track084[203], with parameters:
+  - Name: track084-1771.fgong
+  - Teff      :  5794.859812 
+  - FeH       :     0.095566 
+  - dnufit    :   104.852792 (after rescaling:   103.998690)
+  - numax     :     0.711909 (after rescaling:  2199.797649)
+  - radPhot   :     1.213140 
+  - massfin   :     1.047471 
+  - age       :  7228.992995 
+
+Lowest chi2 model:
+* chi2: 2.454677766735587
+* Grid-index: grid/tracks/track254[209], with parameters:
+  - Name: track254-1781.fgong
+  - Teff      :  5800.636622 
+  - FeH       :     0.096289 
+  - dnufit    :   104.490130 (after rescaling:   103.638982)
+  - numax     :     0.708928 (after rescaling:  2190.587635)
+  - radPhot   :     1.217123 
+  - massfin   :     1.050471 
+  - age       :  7152.744447 
+
+
+Computing posterior distributions for the requested output parameters!
+==> Summary statistics printed below ...
+
+-----------------------------------------------------
+median     Teff          :   5795.992582
+err_plus   Teff          :      6.543087
+err_minus  Teff          :     27.544478
+-----------------------------------------------------
+median     FeH           :      0.096845
+err_plus   FeH           :      0.029024
+err_minus  FeH           :      0.029193
+-----------------------------------------------------
+median     dnufit        :    104.050717
+err_plus   dnufit        :      0.457195
+err_minus  dnufit        :      0.411735
+-----------------------------------------------------
+median     numax         :   2202.066707
+err_plus   numax         :     12.997419
+err_minus  numax         :     11.479072
+-----------------------------------------------------
+median     radPhot       :      1.213140
+err_plus   radPhot       :      0.004733
+err_minus  radPhot       :      0.005776
+-----------------------------------------------------
+median     massfin       :      1.048471
+err_plus   massfin       :      0.013008
+err_minus  massfin       :      0.013007
+-----------------------------------------------------
+median     age           :   7178.860182
+err_plus   age           :    343.626959
+err_minus  age           :    257.428764
+-----------------------------------------------------
+
+Saved results to /mnt/c/Users/georg/Documents/GitHub/Iwan-and-George-Year-4-Project/BASTAExamples/Epsilon/results.ascii.
+Saved corner plot to /mnt/c/Users/georg/Documents/GitHub/Iwan-and-George-Year-4-Project/BASTAExamples/Epsilon/16CygA_corner.pdf.
+Saved Kiel diagram to /mnt/c/Users/georg/Documents/GitHub/Iwan-and-George-Year-4-Project/BASTAExamples/Epsilon/16CygA_kiel.pdf.
+Saved figure to /mnt/c/Users/georg/Documents/GitHub/Iwan-and-George-Year-4-Project/BASTAExamples/Epsilon/16CygA_echelle_uncorrected.pdf
+Saved figure to /mnt/c/Users/georg/Documents/GitHub/Iwan-and-George-Year-4-Project/BASTAExamples/Epsilon/16CygA_pairechelle_uncorrected.pdf
+Saved figure to /mnt/c/Users/georg/Documents/GitHub/Iwan-and-George-Year-4-Project/BASTAExamples/Epsilon/16CygA_dupechelle_uncorrected.pdf
+The surface correction coefficients are -6.32516691456928e-09 -7.2256683019797185e-09
+Saved figure to /mnt/c/Users/georg/Documents/GitHub/Iwan-and-George-Year-4-Project/BASTAExamples/Epsilon/16CygA_echelle.pdf
+Saved figure to /mnt/c/Users/georg/Documents/GitHub/Iwan-and-George-Year-4-Project/BASTAExamples/Epsilon/16CygA_pairechelle.pdf
+Saved figure to /mnt/c/Users/georg/Documents/GitHub/Iwan-and-George-Year-4-Project/BASTAExamples/Epsilon/16CygA_dupechelle.pdf
+Saved figure to /mnt/c/Users/georg/Documents/GitHub/Iwan-and-George-Year-4-Project/BASTAExamples/Epsilon/16CygA_ratios_r012.pdf
+Saved figure to /mnt/c/Users/georg/Documents/GitHub/Iwan-and-George-Year-4-Project/BASTAExamples/Epsilon/16CygA_ratios_r012_cormap.pdf
+Saved figure to /mnt/c/Users/georg/Documents/GitHub/Iwan-and-George-Year-4-Project/BASTAExamples/Epsilon/16CygA_epsdiff_e012.pdf
+Saved figure to /mnt/c/Users/georg/Documents/GitHub/Iwan-and-George-Year-4-Project/BASTAExamples/Epsilon/16CygA_epsdiff_e012_cormap.pdf
+
+Finished on 2023-11-23 16:10:39 (runtime 92.0 s).
+
